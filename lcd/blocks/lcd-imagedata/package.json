@@ -25,6 +25,9 @@
           "max": 200
         },
         "type": "slider"
+      },
+      "test": {
+        "type": "color"
       }
     },
     "propertyOrder": [
@@ -32,7 +35,8 @@
       "subWidth",
       "subHeight",
       "noise",
-      "zoom"
+      "zoom",
+      "test"
     ]
   },
   "name": "lcd-imagedata",

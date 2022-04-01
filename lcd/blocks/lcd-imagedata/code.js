@@ -15,8 +15,8 @@ function addNoise(value) {
 const canvas = element.querySelector('#c')
 const ctx = canvas.getContext('2d')
 
-const subWidth = +state.subWidth
-const subHeight = +state.subHeight
+const subWidth = state.subWidth
+const subHeight = state.subHeight
 
 const width = state.imageData.width * subWidth * 3
 const height = state.imageData.height * subHeight

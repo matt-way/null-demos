@@ -43,7 +43,7 @@ function delay(ms) {
 if (state.animate) {
   for (let index = 0; ; index++) {
     drawFrame(state.frames[index % state.frames.length])
-    await delay(50)
+    //await delay(50)
     yield
   }
 } else {
